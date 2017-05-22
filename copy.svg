@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="13px" viewBox="0 0 10 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ricochet" transform="translate(-421.000000, -481.000000)" fill="#1285E3">
+            <g id="Online-etc" transform="translate(402.000000, 434.000000)">
+                <g id="Copy" transform="translate(19.000000, 47.000000)">
+                    <polygon id="Shape" points="6.66666667 1.08333333 6.11111111 1.08333333 6.11111111 3.79166667 8.88888889 3.79166667 8.88888889 3.25 6.66666667 3.25"></polygon>
+                    <path d="M7.40625,0 L1.66666667,0 L1.66666667,1.625 L0,1.625 L0,13 L8.33333333,13 L8.33333333,11.375 L10,11.375 L10,2.5390625 L7.40625,0 Z M7.77777778,12.4583333 L0.555555556,12.4583333 L0.555555556,2.16666667 L1.66666667,2.16666667 L1.66666667,11.375 L7.77777778,11.375 L7.77777778,12.4583333 Z M9.44444444,10.8333333 L2.22222222,10.8333333 L2.22222222,0.541666667 L7.17708333,0.541666667 L9.44444444,2.7625 L9.44444444,10.8333333 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
