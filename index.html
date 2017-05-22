@@ -247,13 +247,15 @@
             padding-left: 8px;
     }
 
-    tr td.request-num {
+    #requests tr td.request-num {
+      display: none; /* lets disable it, looks too busy with not enough utility */
       color: #FDFDFD;
+
       background-color: #4193D6;
       line-height: 17px;
       padding-right: 8px;
       border-radius: 15px;
-      font-size: 12px;
+      font-size: 11px;
 
     }
 
@@ -265,6 +267,26 @@
       z-index: 10;
       top: 410px;
       left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      clear: both;
+    }
+    #buttons img {
+      display: block;
+      margin-left: 53px;
+      margin-bottom: 7px;
+
+    }
+    .button {
+      width: 50%;
+      text-align: center;
+      font-size: 12px;
+      letter-spacing: 0.5px;
+      color: #1285E3;
+    }
+    .button:first-of-type {
+      border-right: 1px solid #DEDEDE;
     }
 
   </style>
@@ -316,8 +338,8 @@
           <li>Dalton Trombo</li>
       </div>
       <div id="buttons">
-        <div class="button"></div>
-        <div class="button"></div>
+        <div class="button"><img src="contact-add.svg"> Add Contact</div>
+        <div class="button"><img src="settings-gear.svg"> Settings</div>
       </div>
 
     </div>
