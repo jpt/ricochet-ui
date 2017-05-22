@@ -1,60 +1,75 @@
 <html>
 <head>
   <style type="text/css">
-  body, html, * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+    body, html, * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #222;
+    }
 
-  #ricochet {
-    width: 736px;
-    height: 480px;
-    background-color: #ccc;
-  }
-
-
-  .panel {
-    float: left;
-    height: 480px;
-  }
-
-  .panel.left {
-    width: 256px;
-    background-color: #c5c5c5;
-  }
-
-  .panel.right {
-    width: 480px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #d4d4d4;
-  }
-
-  .text-bubble {
-    font-family: "Liberation Sans";
-    font-size: 14px;
-    letter-spacing: 0.59px;
-    line-height: 20px;
-
-    padding-top: 5px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    padding-left: 8px;
-
-    border-radius: 8px;
-
-    background-color: #fff;
-    max-width: 280px;
-    border: 1px solid #000;
-  }
-  
-  .text-bubble.right {
-    float: right;
-  }
+    #ricochet {
+      width: 736px;
+      height: 480px;
+      background-color: #ccc;
+    }
 
 
+    .panel {
+      float: left;
+      height: 480px;
+    }
 
+    .panel.left {
+      width: 256px;
+      background-color: #f3f3f3;
+    }
+
+    .panel.right {
+      width: 480px;
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: #FDFDFD;
+    }
+
+    .text-bubble {
+      max-width: 280px;
+
+      font-family: "Liberation Sans";
+      font-size: 14px;
+      letter-spacing: 0.59px;
+      line-height: 20px;
+
+      padding-top: 5px;
+      padding-right: 9px;
+      padding-bottom: 5px;
+      padding-left: 8px;
+
+      border: 1px solid #979797;
+      border-radius: 8px;
+      background-color: #fff;
+    }
+
+    .text-bubble.right {
+      float: right;
+      border: 1px solid #1285E3;
+    }
+    .arrow {
+      clear: both;
+    }
+    .arrow.left {
+      height: 16px;
+      margin-left: 15px;
+      margin-bottom: -3px;
+    }
+    .arrow.right {
+      float: right;
+      height: 16px;
+      margin-top: -3px;
+      margin-right: 15px;
+    }
 
   </style>
   <title>Ricochet</title>
@@ -64,8 +79,11 @@
     <div class="panel left">
     </div>
     <div class="panel right">
+      <img class="arrow left" src="msg-arrow-down.svg">
       <div class="text-bubble left">Test</div>
+
       <div class="text-bubble right">Test 2</div>
+      <img class="arrow right" src="msg-arrow-up.svg">
     <div>
   </div>
 </body>

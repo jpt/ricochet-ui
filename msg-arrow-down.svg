@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd">
+        <g id="Ricochet" transform="translate(-675.000000, -570.000000)" stroke="#979797">
+            <g id="App" transform="translate(380.000000, 393.000000)">
+                <g id="Main-View" transform="translate(253.693878, 25.000000)">
+                    <g id="Group-2" transform="translate(0.940173, 0.000000)">
+                        <g id="GreyBubble" transform="translate(166.436703, 202.000000) scale(1, -1) translate(-166.436703, -202.000000) translate(26.436703, 144.000000)">
+                            <g id="Arrow" transform="translate(13.775911, 88.000000)">
+                                <polyline id="Path-3" points="0.681152344 1.99169922 9.29355469 19.2636719 17.7539063 2.09716797"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
