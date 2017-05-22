@@ -1,11 +1,13 @@
 <html>
 <head>
   <style type="text/css">
+
     body, html, *, p, div {
       padding: 0;
       margin: 0;
       box-sizing: border-box;
     }
+
     body {
       background-color: #222;
     }
@@ -16,7 +18,6 @@
       height: 480px;
       background-color: #ccc;
     }
-
 
     .panel {
       float: left;
@@ -32,6 +33,7 @@
       background-color: #f3f3f3;
       padding-left: 40px;
       padding-top: 18px;
+      padding-bottom: 140px;
     }
 
     .panel.right {
@@ -140,10 +142,6 @@
       margin-left: -20px;
     }
 
-    #copy {
-
-    }
-
     #copy img {
       width: 10px;
       height: 13px;
@@ -202,13 +200,16 @@
       margin-bottom: 5px;
       font-weight: 600;
     }
+
     .offline {
       color: #979797;
     }
+
     .contact { 
       display: inline-block;
       max-width: 185px;
     }
+
     .contact.selected {
       color: #FDFDFD;
       background-color: #4193D6;
@@ -217,7 +218,45 @@
       padding-right: 12px;
       border-radius: 15px;
     }
-    .contact.selected
+
+    tr,td,table,tbody {
+      padding:0;
+      margin:0;
+    }
+
+    #requests {
+      margin-top: 24px;
+    }
+    #requests td {
+      font-size: 13px;
+      line-height: 26px;
+    }
+
+    #requests .title {
+      font-weight: 600;
+    }
+
+    tr td:nth-of-type(1) {
+      min-width: 130px;
+    }
+    tr td:nth-of-type(3) {
+      padding-left: 18px;
+    }
+
+    tr td:nth-of-type(2) {
+            padding-left: 8px;
+    }
+
+    tr td.request-num {
+      color: #FDFDFD;
+      background-color: #4193D6;
+      line-height: 17px;
+      padding-right: 8px;
+      border-radius: 15px;
+      font-size: 12px;
+
+    }
+
   </style>
   <title>Ricochet</title>
 </head>
@@ -232,6 +271,25 @@
         <div id="copy"><img src="copy.svg">Copy My Address</div>
       </div>
       <div id="requests">
+        <table>
+          <tbody>
+            <tr>
+              <td class="title">Requests</td>
+              <td class="request-num">2</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>s2d3cf4g6h7j8k8l</td>
+              <td><img src="check.svg"></td>
+              <td><img src="x.svg"></td>
+            </tr>
+            <tr>
+              <td>s2d3cf4g6h7j8k8l</td>
+              <td><img src="check.svg"></td>
+              <td><img src="x.svg"></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
       <div id="contacts">
         <ul>
@@ -246,16 +304,17 @@
           <li>Alan Smithee</li>
           <li>Roy G. Biv</li>
           <li>Dalton Trombo</li>
-
-
       </div>
     </div>
 
     <div class="panel right">
+
       <div id="contact-name">
         <div class="online"></div> Mario Savio
       </div>
+
       <div id="messages">
+
         <div class="message sent">
           <div class="text-bubble">Test</div>
         </div>
@@ -290,12 +349,14 @@
         <div class="message sent">
           <div class="text-bubble">Test</div>
         </div>
+
       </div>
 
       <div id="input">
         <input type="text" placeholder=""></input>
         <img src="attach-paperclip.svg">
       </div>
+
     <div>
 
   </div>
