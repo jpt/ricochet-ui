@@ -32,7 +32,9 @@
       padding-left: 20px;
       padding-right: 20px;
       background-color: #FDFDFD;
+      overflow-x: scroll;
     }
+
 
     .text-bubble {
       max-width: 280px;
@@ -52,30 +54,21 @@
       background-color: #fff;
     }
 
-
-    .text-bubble.right {
+    #messages {
+      width: 100%;
+ 
+    }
+    .message {
+      width: 100%;
+      clear: both;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .message.sent .text-bubble{
       float: right;
       border: 1px solid #1285E3;
     }
 
-    .text-bubble:nth-of-type(even) {
-      margin-top: 20px;
-    }
-
-    .arrow {
-      clear: both;
-    }
-    .arrow.left {
-      height: 16px;
-      margin-left: 15px;
-      margin-bottom: -3px;
-    }
-    .arrow.right {
-      float: right;
-      height: 16px;
-      margin-top: -3px;
-      margin-right: 15px;
-    }
 
   </style>
   <title>Ricochet</title>
@@ -85,11 +78,44 @@
     <div class="panel left">
     </div>
     <div class="panel right">
-      <img class="arrow left" src="msg-arrow-down.svg">
-      <div class="text-bubble left">Test</div>
+      <div id="messages">
+        <div class="message sent">
+          <div class="text-bubble">Test</div>
+        </div>
 
-      <div class="text-bubble right">Test 2</div>
-      <img class="arrow right" src="msg-arrow-up.svg">
+        <div class="message received">
+          <div class="text-bubble">Test 2</div>
+        </div>
+
+        <div class="message sent">
+          <div class="text-bubble">Test</div>
+        </div>
+
+        <div class="message received">
+          <div class="text-bubble">Test 2dsfsd  fdfsd sf sdf fsd sdfssd fsdf dss Test 2dsfsd  fdfsd sf sdf fsd sdfssd fsdf dssTest 2dsfsd  fdfsd sf sdf fsd sdfssd fsdf dssTest 2dsfsd  fdfsd sf sdf fsd sdfssd fsdf dssTest 2dsfsd  fdfsd sf sdf fsd sdfssd fsdf dssTest 2dsfsd  fdfsd sf sdf fsd sdfssd fsdf dssTest 2dsfsd  fdfsd sf sdf fsd sdfssd fsdf dssTest 2dsfsd  fdfsd sf sdf fsd sdfssd fsdf dss</div>
+        </div>
+
+        <div class="message sent">
+          <div class="text-bubble">Test</div>
+        </div>
+        <div class="message received">
+          <div class="text-bubble">Test 2</div>
+        </div>
+
+        <div class="message sent">
+          <div class="text-bubble">Test</div>
+        </div>
+
+        <div class="message received">
+          <div class="text-bubble">Test 2dsfsd  fdfsd sf sdf fsd sdfssd fsdf dss Test 2dsfsd  fdfsd sf sdf fsd sdfssd fsdf dssTest 2dsfsd  fdfsd sf sdf fsd sdfssd fsdf dssTest 2dsfsd  fdfsd sf sdf fsd sdfssd fsdf dssTest 2dsfsd  fdfsd sf sdf fsd sdfssd fsdf dssTest 2dsfsd  fdfsd sf sdf fsd sdfssd fsdf dssTest 2dsfsd  fdfsd sf sdf fsd sdfssd fsdf dssTest 2dsfsd  fdfsd sf sdf fsd sdfssd fsdf dss</div>
+        </div>
+
+        <div class="message sent">
+          <div class="text-bubble">Test</div>
+        </div>
+      </div>
+
+
     <div>
   </div>
 </body>
