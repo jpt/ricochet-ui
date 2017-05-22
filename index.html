@@ -205,6 +205,19 @@
     .offline {
       color: #979797;
     }
+    .contact { 
+      display: inline-block;
+      max-width: 185px;
+    }
+    .contact.selected {
+      color: #FDFDFD;
+      background-color: #4193D6;
+      margin-left: -12px;
+      padding-left: 12px;
+      padding-right: 12px;
+      border-radius: 15px;
+    }
+    .contact.selected
   </style>
   <title>Ricochet</title>
 </head>
@@ -223,7 +236,7 @@
       <div id="contacts">
         <ul>
           <li>Contacts</li>
-          <li>Mario Savio</li>
+          <li class="contact selected">Mario Savio</li>
           <li>Jane Doe</li>
           <li>John Doe</li>
           <li>Glenn Journalist</li>
